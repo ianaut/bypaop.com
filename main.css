@@ -9,6 +9,39 @@ a{
   text-decoration: none;
   color: white;
 }
-a:hover{
-  transform: scale(1.1);
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+}
+
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+li :hover{
+  background-color: rgb(196, 109, 55);
+  color: black;
+}
+
+.active{
+  background-color: rgb(140, 85, 29);
+}
+
+.content{
+  margin-top: 55px;
 }
